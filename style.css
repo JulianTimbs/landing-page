@@ -62,10 +62,10 @@ ul {
 .sign-up {
     color: #E5E7EB;
     background-color: #3882F6;
-    padding: 8px 16px;
+    margin-top: 8px;
+    padding: 8px 24px;
     border-radius: 5px;
     border: none;
-    margin-top: 8px;
 }
 
 .welcome-image {
@@ -140,4 +140,37 @@ ul {
     color: #1F2937;
     font-size: 16px;
     font-weight: 800;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.call-text {
+    color: #F9FAF8;
+}
+
+.call-header {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.call-sign-up {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 8px 24px;
+    color: #E5E7EB;
 }
